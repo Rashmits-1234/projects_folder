@@ -1,0 +1,38 @@
+.main-content {
+  padding: 20px;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-size: cover;
+}
+
+.carousel-content h3 {
+  color: #fff;
+}
+
+.carousel-content p {
+  color: #fff;
+}
+
+.carousel-image {
+  height: 400px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .carousel-content {
+    height: 300px;
+  }
+
+  .carousel-image {
+    height: 300px;
+  }
+}
